@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-SL-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Pasindu portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/adc27e9ac7.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/p6.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>UI/UX Designer</p>
+                    <p>Full Stack Developer</p>
+                    <h3>Hi, I'm <span>Pasindu Nishshanka</span><br> from Sri Lanka</h3>
+                </div>
+            </div>
+        </div>
+
+<!-------------about------------------>
+
+        <div id="about">
+            <div class="container">
+                <div class="raw">
+                    <div class="about-col1">
+                        <img src="images/p5.jpg" alt="">
+                    </div>
+                    <div class="about-col2">
+                        <h2 class="subtitle">About me</h2>
+                        <p>A well-presented, confidents and hardworking individual with
+                            positive attitude. To take a challenging role in IT industry and
+                            lead the organization to achieve its targets and objectives while
+                            gaining knowledge and work experiences</p>
+
+                            <div class="tab-titles">
+                                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                <p class="tab-links" onclick="opentab('education')">Education</p>
+                            </div>
+
+                            <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                    <li><span>Web Development</span><br>Frontend and Backend Development</li>
+                                    <li><span>App Development</span><br>Building Android/ios Apps</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>Work Experience</span><br>2020 to present with Uni projects and my own projects</li>
+                                    
+                                </ul>
+                            </div>
+
+                            <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>Degree</span><br>Currently following Information Technology Special ICT degree  at SLIIT</li>
+                                    <li><span>Advanced Level</span><br>Commerce <br>Econ - <span>A</span> <br> Accounts - <span>A</span> <br>Business Studies - <span>A</span></li>
+                                    
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+     <!--------------Services---------------->  
+     
+     <div id="services">
+
+        <div class="container">
+            <h2 class="subtitle">My Services</h2>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-code"></i>
+                    <h2>Web Design and Development</h2>
+                    <p>Creating comprehensive creative web pages that meet customer needs at fair value.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Creating an attractive and creative user interfaces  </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android" ></i>
+                    <h2>App Design</h2>
+                    <p>Creating comprehensive creative Mobile Apps that meet customer needs at fair value.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+
+
+     </div>
+     
+
+
+<!-------------portfolio------------------------>
+    
+<div id="portfolio">
+    <div class="container">
+
+        <h2 class="subtitle">My Work</h2>
+        <div class="work-list">
+
+            <div class="work">
+                <img  src="images/mobile.jpg">
+                <div class="layer">
+                    <h3>Mobile App</h3>
+                    <p>A university project A university project A university project</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/web1.jpg">
+                <div class="layer">
+                    <h3>Web App</h3>
+                    <p>A university project A university project A university project</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/web2.jpg">
+                <div class="layer">
+                    <h3>Web App</h3>
+                    <p>A university project A university project A university project</p>
+                    <a href="#"><i class="fa-sharp fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <a href="#" class="btn">See more</a>
+    
+    </div>
+
+</div>
+
+<!--------Contact----------->
+
+<div id="contact">
+
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="subtitle">Contact Me</h2>
+                <p> <i class="fa-solid fa-envelope"></i>pasindunishshanka82@gmail.com / it21033032@my.sliit.lk</p>
+                <p><i class="fa-solid fa-mobile-button"></i>+94 075 912 4951</p>
+                <p id="u">Social media below to contact me for your needs</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+                <p>Pasindu Nishshanka</p>
+                <a href="images/Pasindu.pdf" download class="btn btn2">Download CV</a>
+            </div>
+
+            <div class="contact-right">
+                <form action="https://formsubmit.co/pasindunishshanka28@gmail.com" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="5" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright @ Pasindu. Made with <i class="fa-sharp fa-solid fa-heart"></i> Jaypar</p>
+    </div>
+
+</div>
+
+
+
+
+    <!--------------Js---------------->
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemenu.style.right="0";
+            }
+            function closemenu(){
+                sidemenu.style.right="-200px";
+            }
+    </script>
+
+    </body>
+
+</html>

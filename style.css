@@ -98,6 +98,7 @@ nav ul li a:hover::after{
 
 .about-col1{
     flex-basis: 35%;
+    position : relative;
 
 }
 
